@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente!</h1>
+    <p>Este vídeo foi hospedado localmente no proprio servidor.</p>
+    <video width="500" height="300" controls poster="images/discovery-channe.png">
+        <!-- Utiliza-se essa tecnica de adicionar varios videos, para caso o navegador não seja compativel com o primero vídeo, ele tenta rodar o segundo e assim sucessivamente-->
+        <source src="video/meu-video.mp4" type="video/mp4">
+        <source src="video/meu-video.webm" type="video/webm">
+        <source src="video/meu-video.mkv" type="video/mp4">
+        <source src="video/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não é compativel com o vídeo.</p>
+    </video>
+</body>
+</html>
