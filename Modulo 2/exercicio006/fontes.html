@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes externas baixadas</title>
+    <style>
+        @font-face {
+            font-family: 'oldLondon';
+            src: url('fonts/OldLondon.ttf') format('truetype'), url('fonts/Olondona.otf') format('opentype');
+            
+            /* 
+            tipos de format:
+
+            -opentype(otf)
+            -truetype(ttf)
+            -embedded-opentype
+            -truetype-att(apple advanced typography)
+            -svg
+            */
+        }
+
+        body {
+            font-family: 'oldLondon';
+            font-size: 1.5em;
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nam laudantium aut reprehenderit officiis maxime delectus facere molestias expedita modi, alias natus, blanditiis sint ratione dicta ex rem, eaque dolores.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quo autem nulla, et aperiam enim sint adipisci sapiente provident nostrum quisquam beatae fuga velit animi voluptas in unde? Aspernatur, quam.</p>
+    <h2>Subtítulo 1</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, beatae mollitia maxime aspernatur reiciendis eius at. Unde dignissimos et laudantium voluptatem molestias voluptate magnam beatae minus voluptatum assumenda, ab iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur possimus eveniet eligendi veritatis facilis rem, repellat animi modi ipsum autem at quod tempore nulla incidunt reprehenderit esse unde. Iure! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae accusantium laudantium molestiae numquam nisi tenetur dolor consequatur debitis suscipit cumque. Veniam tempore debitis voluptatibus dolores quidem quisquam minima, amet quos.</p>
+    <h2>Subtítulo 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi cumque ex magni debitis assumenda, minima non consequatur! Vero doloremque accusantium, quisquam in laboriosam soluta fuga dolorum, fugit, deleniti ex consequatur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis consectetur hic debitis laboriosam cupiditate vel temporibus consequuntur sapiente libero, tempora at cum a vero dolorum, quaerat in similique eius.</p>
+</body>
+</html>
