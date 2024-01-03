@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Pseudo classes</title>
+    <style>
+        div > p { /* A tag div q conter o paragragfo */
+            display: none; /* Ocultar item */
+        }
+        div:hover {
+            color: red;
+
+        }
+
+        div:hover > p { /* Qunado passar o mouse por cima da div que contiver um paragrafo */
+            display: block; /* Aparece item "bloqueia na tela" */
+            background-color: rgba(165, 42, 42, 0.599); 
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercicio de pseudo classes</h1>
+    <h2>Paragrafo escondido</h2>
+    <p>Passe o mouse por cima do texto abaixo</p>
+    <div>
+        passe o mouse aqui.
+        <p>Texto Escondido!</p>
+    </div>
+</body>
+</html>
