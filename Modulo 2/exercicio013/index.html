@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(32, 32, 255, 0.839);
+        }
+
+        header {
+            background-color: lightblue;
+            margin: 20px auto 40px auto;
+            padding: 5px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: white;
+            padding: 5px;
+            margin: 3px auto 0px auto;
+            border-radius: 10px;
+        }
+
+        nav > a { /* Configura o link que está dentro da tag nav apenas */
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: brown;
+        }
+
+        nav > a:visited {
+            color: blue;
+        }
+
+        main {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        p {
+            text-align: justify;
+            text-indent: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: black;
+            color: white;
+            margin: 10px 0px 10px 0px; 
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho-->
+    <header>
+        <h1>Trabalhando com Grouping Tags</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <!-- Conteúdo principal-->
+    <main>
+        <section id="esportes">
+            <h2>Campeonato Brasileiro Serie A</h2>
+            <article>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae fugit deleniti qui reprehenderit libero aut, sed commodi ab delectus ipsa ea provident ipsum illo ducimus dignissimos soluta id. Consequatur, ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, accusantium? Quae, quibusdam maxime excepturi tenetur perferendis, ratione repudiandae nesciunt dolorum, dolore odio aut voluptatem sequi consectetur aliquam ducimus fugiat. Ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nisi assumenda quas fugiat repellendus illo dolorem quis voluptatem a adipisci laborum quae, unde qui nesciunt necessitatibus vitae expedita aliquam ea.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fugit quae eius laborum. Architecto molestiae quos voluptatibus rem non et, quaerat, esse deleniti id explicabo veritatis dolorem error quidem perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, veniam praesentium fuga possimus facere qui voluptatem commodi magnam, a, minima doloribus laudantium voluptatum dicta culpa. Quod beatae accusamus architecto reiciendis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, ducimus dolores earum perspiciatis accusantium veniam voluptas quos. Odit enim, dignissimos, ipsum labore vitae vel hic laborum voluptatum reiciendis non pariatur?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis amet eveniet veritatis, possimus, magnam mollitia aperiam alias molestiae, illo iusto impedit obcaecati nesciunt ipsam totam voluptate minima rem accusantium eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asperiores nam est ab vitae, possimus sed tempore modi laudantium consequuntur non sunt facilis ut et. Voluptates hic officia fugiat temporibus.</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <h2>Culinaria brasileira</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis doloremque adipisci suscipit pariatur tempore iste inventore magnam est ipsum. Amet dolor illum laboriosam, numquam deserunt asperiores quo praesentium voluptatibus quibusdam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, magnam repellendus vero unde, error maxime adipisci odio tenetur dolor reprehenderit quas laudantium. Reiciendis magni nesciunt vero? Accusamus officia minima inventore?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, quos magnam deleniti inventore assumenda consequatur accusantium enim ex ipsam consequuntur alias id incidunt voluptatibus, aut delectus impedit nulla qui tempora.</p>
+            </article>
+        </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <h3>Desenvolvido por Davi Ferreira</h3>
+    </footer>
+</body>
+</html>
