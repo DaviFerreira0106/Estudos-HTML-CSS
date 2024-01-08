@@ -37,7 +37,7 @@ Estou aprendendo HTML5 e CSS3, segue abaixo meus projetos criados:
         <li><a href="Modulo 2/exercicio012/index.html" target="_blank">Executar exercicio 012</a></li>
         <li><a href="Modulo 2/exercicio013/index.html" target="_blank">Executar exercicio 013</a></li>
     </ul>
-    <li> Projeto Site:</li>
+ <li> Projeto Site:</li>
     <ul>
         <li><a href="Projeto_Site/index.html" target="_blank">Executar Projeto Site</a></li>
     </ul>
