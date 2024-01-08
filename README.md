@@ -1,5 +1,3 @@
-Trabalhando com HTML5 e CSS3
+Curso de HTML5 e CSS3 
 
-Meus projetos a partir do curso
-
-Modulo 1/desafio005/
+Estou aprendendo HTML5 e CSS3, segue abaixo meus projetos criados: 
