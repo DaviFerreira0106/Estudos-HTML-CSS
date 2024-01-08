@@ -141,6 +141,31 @@ main h2 {
     text-indent: 8px;
 }
 
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.232);
+}
+
+a.external::after {
+    content: '\00A0\1F517';
+}
+
+aside h3 {
+    background-color: var(--cor4);
+    padding: 10px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px 0px -10px;
+}
+
+aside ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside; /* Deixa a lista dentro do aside */
+    columns: 2; /* Quebra a lista em duas colunas */
+}
+
 footer {
     background-color: var(--cor5);
     color: white;
