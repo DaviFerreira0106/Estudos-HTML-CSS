@@ -7,14 +7,17 @@
     <style>
         body {
             height: 100vh;
-            background-color: black; /* É recomendavel mesmo que utilize imagem de background, utilizar cor */
-            background-image: url('images/wallpaper002.jpg');
+            /*background-color: black; /* É recomendavel mesmo que utilize imagem de background, utilizar cor */
+            /*background-image: url('images/wallpaper002.jpg');
             background-repeat: no-repeat;
+            background-size: cover;*/
+            /* Shorthand de backgroung */
+            background: black url('images/wallpaper002.jpg') no-repeat fixed;
             background-size: cover;
         }
 
         main {
-            width: 400px;
+            max-width: 400px; /* Deixa mais responsivo */
             background-color: white;
             padding: 10px;
             border: 1px solid darkblue;
