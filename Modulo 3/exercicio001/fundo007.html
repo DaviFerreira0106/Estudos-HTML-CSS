@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de posicionamento de caixas</title>
+    <style>
+        #conteiner {
+            position: relative; /* Por padrão todos os box já vem com position relative */
+            background-color: purple;
+            background-image: url('images/target001.png');
+            height: 500px;
+            background-size: 100% 100%;
+            padding: 10px;
+        }
+
+        #conteudo {
+            position: absolute; /* Sempre que for mecher no posicionamento de um box, deixe ele como absoluto, desde que o box inferior esteja relative */
+            background-color: yellow;
+            height: 200px;
+            width: 300px;
+            background-image: url('images/target001.png');
+            background-size: 100% 100%;
+
+            /* O top e left foram ablitados pelo positiondo box ser absolute */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);/* Transforma o ponto de partida da caixa a ser posicionada */
+        }
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
