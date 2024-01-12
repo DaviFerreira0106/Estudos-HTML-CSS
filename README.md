@@ -1,6 +1,6 @@
-Curso de HTML5 e CSS3 
+<h1>Curso de HTML5 e CSS3 </h1>
 
-Estou aprendendo HTML5 e CSS3, segue abaixo meus projetos criados: 
+<p>Estou aprendendo HTML5 e CSS3, segue abaixo meus projetos criados: </p>
 
 
 <ul>
@@ -21,7 +21,7 @@ Estou aprendendo HTML5 e CSS3, segue abaixo meus projetos criados:
         <li><a href="Modulo 1/exercicio013/index.html" target="_blank">Executar exercicio 013</a></li>
         <li><a href="Modulo 1/exercicio014/index.html" target="_blank">Executar exercicio 014</a></li>
     </ul>
- <li> Modulo 2:
+ <li> Modulo 2: </li>
     <ul>
         <li><a href="Modulo 2/exercicio001/cor001.html" target="_blank">Executar exercicio 001</a></li>
         <li><a href="Modulo 2/exercicio002/cor001.html" target="_blank">Executar exercicio 002</a></li>
@@ -37,8 +37,22 @@ Estou aprendendo HTML5 e CSS3, segue abaixo meus projetos criados:
         <li><a href="Modulo 2/exercicio012/index.html" target="_blank">Executar exercicio 012</a></li>
         <li><a href="Modulo 2/exercicio013/index.html" target="_blank">Executar exercicio 013</a></li>
     </ul>
+ <li> Modulo 3: </li>
+    <ul>
+        <li><a href="Modulo 3/exercicio001/fundo001.html" target="_blank">Executar exercicio 001</a></li>
+        <li><a href="Modulo 3/exercicio001/fundo002.html" target="_blank">Executar exercicio 002</a></li>
+        <li><a href="Modulo 3/exercicio001/fundo003.html" target="_blank">Executar exercicio 003</a></li>
+        <li><a href="Modulo 3/exercicio001/fundo004.html" target="_blank">Executar exercicio 004</a></li>
+        <li><a href="Modulo 3/exercicio001/fundo005.html" target="_blank">Executar exercicio 005</a></li>
+        <li><a href="Modulo 3/exercicio001/fundo006.html" target="_blank">Executar exercicio 006</a></li>
+        <li><a href="Modulo 3/exercicio001/fundo007.html" target="_blank">Executar exercicio 007</a></li>
+    </ul>
  <li> Projeto Site:</li>
     <ul>
         <li><a href="Projeto_Site/index.html" target="_blank">Executar Projeto Site</a></li>
+    </ul>
+ <li> Projeto Cordel</li>
+    <ul>
+        <li><a href="Projeto_Cordel/index.html" target="_blank">Exercutar Projeto Cordel</a></li>
     </ul>
 </ul>
