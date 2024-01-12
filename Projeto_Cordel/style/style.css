@@ -59,11 +59,16 @@ section {
     font-size: 3vw;
 }
 
+section p {
+    margin-bottom: 2em;
+}
+
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.266);
+    background-color: rgba(0, 0, 0, 0.408);
     display: inline-block;
     padding: 5px;
     border-radius: 8px;
+    text-shadow: 1px 1px 0px black;
 }
 
 section.normal {
@@ -73,6 +78,18 @@ section.normal {
 section.imagem {
     background-color: darkgrey;
     color: white;
+    background-position: right bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 1px 3px 5px rgba(0, 0, 0, 0.253); /* O inset torna a sombra, interna ao box */
+}
+
+section#img01 {
+    background-image: url("../imagens/background001.jpg");
+}
+
+section#img02 {
+    background-image: url("../imagens/background002.jpg");
 }
 
 footer {
