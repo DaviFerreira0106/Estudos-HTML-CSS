@@ -14,6 +14,14 @@
             width: 400px;
         }
 
+        caption {
+            font-size: 1em;
+            padding: 10px;
+            font-weight: bold;
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+
         thead, tfoot {
             background-color: grey;
             color: white;
@@ -33,7 +41,8 @@
     <!-- Tabela com tags semanticas -->
     <!--
         Anatomia de tabela com tags semanticas
-
+    TABLE
+        CAPTION = Cabeçalho da tabela (Um título da tabela)
         THEAD = cabeça da tabela
             tr, td, th
         TBODY = corpo da tabela 
@@ -42,10 +51,13 @@
             tr, td, th
     -->
     <table>
+        <caption>
+            Dados Populacionais dos Estados Brasileiros
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th> <!-- O parametro scope auxila os navegadores a analisar sua tabela-->
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -160,7 +172,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total da População</th>
+                <th scope="row">Total da População</th>
                 <td class="num">203 062 512</td>
             </tr>
         </tfoot>
