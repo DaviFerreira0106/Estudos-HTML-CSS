@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de células em tabelas</title>
+    <style> /* Utilizando CSS Local */
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            height: 350px;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        caption {
+            background-color: lightgrey;
+            padding: 10px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        tfoot > tr > th {
+            background-color: lightgrey;
+            padding: 10px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Mesclagem de células na tabela</caption>
+        <thead>
+            <tr>
+                <th colspan="5">Tabela Mesclada</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4">N</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="5">Tabela Mesclada - Davi Ferreira</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
