@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegando pelo Iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        p {
+            text-align: justify;
+            margin: 5px;
+        }
+
+        iframe {
+            height: 500px;
+            width: 80vw;
+            display: block;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça sua Escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quo officia, repudiandae ea voluptatum amet praesentium tempore laborum explicabo quos? Odio sit eveniet illo architecto possimus error, culpa optio quae?</p>
+    <ul>
+        <!-- O target redirecionará a pagina para o nome do objeto especifico -->
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira Opção</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda Opção</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira Opção</a></li>
+    </ul>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, accusantium placeat, molestias officia eligendi, ipsa amet quam eum magni odio nisi necessitatibus quia repudiandae ab voluptas quibusdam. Culpa, perspiciatis laudantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos eveniet deserunt et sequi harum. Unde nemo, numquam mollitia, sapiente impedit voluptates at nisi voluptatibus eligendi perspiciatis temporibus fugit? Cum, doloribus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas aliquam eos iusto suscipit rem nihil ratione, placeat ut rerum atque corrupti repellendus consequuntur consequatur id. Aliquam animi quis a harum?</p>
+    <!-- Para utilizar mais de uma pagina em seu iframe, indentifique-o utilizando o parametro name -->
+    <iframe src="" frameborder="0" name="frame">Seu naveador não é compativel com essa tecnologia</iframe>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, dolor. Itaque molestias consequuntur quaerat perspiciatis exercitationem voluptate sed magni magnam, distinctio maiores quibusdam ad est blanditiis rem aliquam aliquid culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aut, harum a delectus eveniet consequatur alias velit, rem perspiciatis, quod sed quae perferendis at numquam reiciendis eos eaque maiores et.</p>
+</body>
+</html>
