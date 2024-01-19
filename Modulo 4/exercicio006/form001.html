@@ -7,9 +7,17 @@
 </head>
 <body>
     <h1>Meu Primeiro Formulário!</h1>
-    <form>
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+    <!-- O action serve para indicar para qua arquivo os dados do formulário serão enviados apos submeter os dados -->
+    <form action="cadastro.php">
+        <p>
+            <!-- O label serve basicamente para relacionar o titulo do campo, com o objeto IMPORTANTISSIMO!!!! -->
+            <label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
         <input type="submit" value="Enviar">
     </form>
 </body>
