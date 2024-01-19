@@ -46,6 +46,23 @@
         <li><a href="Modulo 3/exercicio001/fundo005.html" target="_blank">Executar exercicio 005</a></li>
         <li><a href="Modulo 3/exercicio001/fundo006.html" target="_blank">Executar exercicio 006</a></li>
         <li><a href="Modulo 3/exercicio001/fundo007.html" target="_blank">Executar exercicio 007</a></li>
+        <li><a href="Modulo 3/exercicio002/tabela001.html" target="_blank">Executar exercicio 008</a></li>
+        <li><a href="Modulo 3/exercicio002/tabela002.html" target="_blank">Executar exercicio 009</a></li>
+        <li><a href="Modulo 3/exercicio002/tabela003.html" target="_blank">Executar exercicio 010</a></li>
+        <li><a href="Modulo 3/exercicio003/index.html" target="_blank">Executar exercicio 011</a></li>
+        <li><a href="Modulo 3/exercicio004/index.html" target="_blank">Executar exercicio 012</a></li>
+        <li><a href="Modulo 3/exercicio005/index.html" target="_blank">Executar exercicio 013</a></li>
+        <li><a href="Modulo 3/exercicio006/index.html" target="_blank">Executar exercicio 014</a></li>
+        <li><a href="Modulo 3/exercicio007/index.html" target="_blank">Executar exercicio 015</a></li>
+        <li><a href="Modulo 3/exercicio008/index.html" target="_blank">Executar exercicio 016</a></li>
+    </ul>
+ <li>Modulo 4</li>
+    <ul>
+        <li><a href="Modulo 4/exercicio001/iframe001.html" target="_blank">Executar exercicio 001</a></li>
+        <li><a href="Modulo 4/exercicio002/iframe001.html" target="_blank">Executar exercicio 002</a></li>
+        <li><a href="Modulo 4/exercicio003/iframe001.html" target="_blank">Executar exercicio 003</a></li>
+        <li><a href="Modulo 4/exercicio004/iframe001.html" target="_blank">Executar exercicio 004</a></li>
+        <li><a href="Modulo 4/exercicio005/iframe001.html" target="_blank">Executar exercicio 005</a></li>
     </ul>
  <li> Projeto Site:</li>
     <ul>
@@ -54,5 +71,9 @@
  <li> Projeto Cordel</li>
     <ul>
         <li><a href="Projeto_Cordel/index.html" target="_blank">Exercutar Projeto Cordel</a></li>
+    </ul>
+ <li> Projeto Redes Sociais</li>
+    <ul>
+        <li><a href="Projeto_Redes_Sociais/index.html" target="_blank">Executar Projeto Redes Sociais</a></li>
     </ul>
 </ul>
