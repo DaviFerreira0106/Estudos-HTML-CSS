@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* CSS para impressoras */
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    text-align: justify;
+}
+
+main article::after {
+    content: 'Impressão realizada no site de Davi Ferreira';
+}
