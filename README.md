@@ -63,7 +63,7 @@
         <li><a href="Modulo 4/exercicio003/iframe001.html" target="_blank">Executar exercicio 003</a></li>
         <li><a href="Modulo 4/exercicio004/iframe001.html" target="_blank">Executar exercicio 004</a></li>
         <li><a href="Modulo 4/exercicio005/iframe001.html" target="_blank">Executar exercicio 005</a></li>
-        <li><a href="Modulo 4/exercicio016/media002/index.html" target="_blank">Executar exercicio 005</a></li>
+        <li><a href="Modulo 4/exercicio016/media002/index.html" target="_blank">Executar exercicio 016</a></li>
     </ul>
  <li> Projeto Site:</li>
     <ul>
