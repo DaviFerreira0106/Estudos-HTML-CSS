@@ -21,10 +21,27 @@ header h1 {
     text-align: center;
 }
 
+span#item {
+    background-color: rgb(47, 47, 47);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+span#item:hover {
+    background-color: white;
+    color: black;
+}
+
 header ul {
     list-style-type: none;
     background-color: rgb(77, 77, 77);
     text-align: center;
+}
+
+header menu {
+    display: none;
 }
 
 header li {
