@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css" media="screen">
     <title>Media Query</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="item" onclick="clickMenu()" class="material-symbols-outlined">dehaze</span>
@@ -38,6 +39,15 @@
         </article>
     </main>
     <script>
+
+        function mudouTamanho(){
+            if(window.innerWidth >= 767){
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+
         function clickMenu(){
             if(menu.style.display == 'block'){
                 menu.style.display = 'none'

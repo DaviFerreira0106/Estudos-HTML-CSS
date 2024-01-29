@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* 
+    Typical Devices Breakpoint 29/01/2024 - W3C
+
+    - Dispositivos extra pequenos: até 600px
+    - Tablets em retrato e celulares: 600px até 768px
+    - Tablets em Paisagem: 768px até 992px
+    - Laptops/Desktps: 992px até 1200px
+    - Laptops/Desktops grandes: 1200px para cima
+
+*/
+
+/* Media Feature para devices acima de 768px */
+@media screen and (min-width: 768px) {
+    span#item {
+        display: none;
+    }
+
+    header > menu > ul > li {
+        display: inline-block;
+        background-color: rgb(105, 105, 105);
+    }
+
+    header > menu > ul {
+        text-align: left;
+    }
+
+    main {
+        width: 700px;
+    }
+}
