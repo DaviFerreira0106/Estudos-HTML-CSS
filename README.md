@@ -63,8 +63,21 @@
         <li><a href="Modulo 4/exercicio003/iframe001.html" target="_blank">Executar exercicio 003</a></li>
         <li><a href="Modulo 4/exercicio004/iframe001.html" target="_blank">Executar exercicio 004</a></li>
         <li><a href="Modulo 4/exercicio005/iframe001.html" target="_blank">Executar exercicio 005</a></li>
-        <li><a href="Modulo 4/exercicio016/media002/index.html" target="_blank">Executar exercicio 016</a></li>
-        <li><a href="Modulo 4/exercicio016/media005/index.html" target="_blank">Executar exercicio 017</a></li>
+        <li><a href="Modulo 4/exercicio006/iframe001.html" target="_blank">Executar exercicio 006</a></li>
+        <li><a href="Modulo 4/exercicio007/form001.html" target="_blank">Executar exercicio 007</a></li>
+        <li><a href="Modulo 4/exercicio008/form001.html" target="_blank">Executar exercicio 008</a></li>
+        <li><a href="Modulo 4/exercicio009/form001.html" target="_blank">Executar exercicio 009</a></li>
+        <li><a href="Modulo 4/exercicio010/form001.html" target="_blank">Executar exercicio 010</a></li>
+        <li><a href="Modulo 4/exercicio011/form001.html" target="_blank">Executar exercicio 011</a></li>
+        <li><a href="Modulo 4/exercicio012/form001.html" target="_blank">Executar exercicio 012</a></li>
+        <li><a href="Modulo 4/exercicio013/form001.html" target="_blank">Executar exercicio 013</a></li>
+        <li><a href="Modulo 4/exercicio014/form001.html" target="_blank">Executar exercicio 014</a></li>
+        <li><a href="Modulo 4/exercicio015/form001.html" target="_blank">Executar exercicio 015</a></li>
+        <li><a href="Modulo 4/exercicio016/media001/index.html" target="_blank">Executar exercicio 016</a></li>
+        <li><a href="Modulo 4/exercicio016/media002/index.html" target="_blank">Executar exercicio 016 part 2</a></li>
+        <li><a href="Modulo 4/exercicio016/media003/index.html" target="_blank">Executar exercicio 016 part 3</a></li>
+        <li><a href="Modulo 4/exercicio016/media004/index.html" target="_blank">Executar exercicio 016 part 4</a></li>
+        <li><a href="Modulo 4/exercicio016/media005/index.html" target="_blank">Executar exercicio 016 part 5</a></li>
     </ul>
  <li> Projeto Site:</li>
     <ul>
@@ -80,6 +93,6 @@
     </ul>
  <li> Projeto Login</li>
     <ul>
-        <li><a href="Projeto_Login/index.html" target="_blank">Executar Projeto Login</li>
+        <li><a href="Projeto_Login/index.html" target="_blank">Executar Projeto Login</a></li>
     </ul>
 </ul>
