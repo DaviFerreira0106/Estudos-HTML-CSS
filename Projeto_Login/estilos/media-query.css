@@ -62,12 +62,13 @@
 
     div#formulario > h1 {
         font-size: 2em;
+        margin-top: 10%;
     }
 
     div#formulario > p {
         font-size: 1em;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 5%;
     }
 
     div.botao > input[type=submit] {
