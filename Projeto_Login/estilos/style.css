@@ -29,7 +29,7 @@ section#login {
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 540px;
+    height: 550px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -93,7 +93,7 @@ div.campo > input {
     border: none;
     border-radius: 10px;
     height: 35px;
-    width: calc(100% - 44.2px); /* é possivel realizar calculos na CSS */
+    width: calc(100% - 46px); /* é possivel realizar calculos na CSS */
     transform: translateY(-13.6px); /* Sempre deixe parametros de transformação por ultimo!!!!! */
 }
 
