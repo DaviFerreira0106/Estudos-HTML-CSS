@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* Criando variaveis na raiz das css */
+:root {
+    --cor0: white;
+    --cor1: #F1F5FC;
+    --cor2: #2D7CE2;
+    --cor3: #65655E;
+
+    --font-padrao: Arial, Helvetica, Verdana, sans-serif;
+}
+
+/* Formatação global */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--cor0);
+}
+
+header {
+    width: 95vw;
+    height: 50px;
+    background-color: var(--cor1);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+}
+
+img#logotipo {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    line-height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor3);
+    margin: 5px;
+    padding: 5px;
+}
+
+a:hover {
+    padding: 5px;
+    background-color: #65655E;
+    color: var(--cor0);
+    border-radius: 5px;
+}
+
+form {
+    display: inline-block;
+    float: right;
+    line-height: 50px;
+}
+
+input#signUp {
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    border: 2px solid var(--cor2);
+    background-color: var(--cor0);
+    color: var(--cor2);
+}
+
+input#signUp:hover {
+    
+}
+
+input#signIn {
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    border: 1px solid var(--cor2);
+    background-color: var(--cor2);
+    color: var(--cor0);
+}
