@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Loja virtual</title>
 </head>
 
 <body>
     <header>
-        <img id="logotipo" src="" alt="">
+        <img id="logotipoHeader" src="images/logotipo50.png" alt="Logotipo Loja virtual">
         <nav>
             <a href="#">Home</a>
             <a href="#">Produtos</a>
@@ -23,25 +24,103 @@
         </form>
     </header>
     <main>
+        <section id="produtos">
+            <h1>Confira nossos Produtos</h1>
+            <div id="listaProdutos">
 
+                <div class="Produto">
+                    <picture>
+                        <source class="imagemProduto" media="(max-width: 600px)" srcset="images/cama200.jpg">
+                        <img class="imagemProduto" src="images/cama.jpg" alt="Cama de madeira">
+                    </picture>
+                    <p class="legendaProduto">R$2.500,00</p>
+                    <p class="legendaProduto">Cama de Madeira Pendurada</p>
+                </div>
+
+
+                <div class="Produto">
+                    <picture>
+                        <source class="imagemProduto" media="(max-width: 600px)" srcset="images/televisao200.png">
+                        <img class="imagemProduto" src="images/televisao.png" alt="televisao lcd 4K">
+                    </picture>
+                    <p class="legendaProduto">R$3.000,00</p>
+                    <p class="legendaProduto">Televisão TCL 4K 50polegadas</p>
+                </div>
+
+
+                <div class="Produto">
+                    <picture>
+                        <source class="imagemProduto" media="(max-width: 600px)" srcset="images/celular200.jpg">
+                        <img class="imagemProduto" src="images/celular.jpg" alt="Celular iphone11">
+                    </picture>
+                    <p class="legendaProduto">R$3.500,00</p>
+                    <p class="legendaProduto">Celular Iphone11 Branco Novo</p>
+                </div>
+
+
+                <div class="Produto">
+                    <picture>
+                        <source class="imagemProduto" media="(max-width: 600px)" srcset="images/piaBanheiro200.jpg">
+                        <img class="imagemProduto" src="images/piaBanheiro.jpg" alt="Pia de marmore para banhiro">
+                    </picture>
+                    <p class="legendaProduto">R$3.000,00</p>
+                    <p class="legendaProduto">Pia de Marmore Branco para Banheiro</p>
+                </div>
+
+
+                <div class="Produto">
+                    <picture>
+                        <source class="imagemProduto" media="(max-width: 600px)" srcset="images/rack200.jpeg">
+                        <img class="imagemProduto" src="images/rack.jpeg" alt="Rack de sala">
+                    </picture>
+                    <p class="legendaProduto">R$2.300,00</p>
+                    <p class="legendaProduto">Rack de Madeira para Sala</p>
+                </div>
+
+
+                <div class="Produto">
+                    <picture>
+                        <source class="imagemProduto" media="(max-width: 600px)" srcset="images/radio200.png">
+                        <img class="imagemProduto" src="images/radio.png" alt="Radio de madeira">
+                    </picture>
+                    <p class="legendaProduto">R$300,00</p>
+                    <p class="legendaProduto">Radio de Madeira Retro</p>
+                </div>
+
+
+            </div>
+        </section>
+        <section>
+            <article>
+                <h2>Nossa História</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid unde nisi, a ea laborum ex eaque!
+                    Quod distinctio, eaque, aliquam voluptatibus vero nihil explicabo nobis, voluptatum magni rerum sint
+                    reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id nobis unde
+                    culpa? Cumque commodi asperiores inventore facere esse modi totam in corrupti, autem, voluptas, ad
+                    magni veritatis distinctio eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                    nisi facere aut illum aliquid nihil, a, esse maxime architecto officiis debitis aperiam ducimus
+                    porro dolor tempora! Aperiam aut dolorem odit!</p>
+            </article>
+        </section>
     </main>
     <footer>
-        <div>
-            <img src="" alt="">
-            <nav>
+        <div id="footerTop">
+            <img id="logotipoFooter" src="images/logotipo50.png" alt="Logotipo Loja virtual">
+            <nav id="navFooter">
                 <a href="#">Home</a>
                 <a href="#">Produtos</a>
                 <a href="#">Parcerias</a>
                 <a href="#">História</a>
             </nav>
         </div>
-        <div>
-            <p>
+        <div id="footerBottom">
+            <p id="paragrafoFooter">
                 Copyright &copy; Loja Virtual. Todos os direitos reservados.
-                <a href="#"><img src="" alt=""></a>
-                <a href="#"><img src="" alt=""></a>
-                <a href="#"><img src="" alt=""></a>
-                <a href="#"><img src="" alt=""></a>
+                <a class="redesPessoais" href="#"><img src="images/facebook30.png" alt="Link de acesso facebook"></a>
+                <a class="redesPessoais" href="#"><img src="images/instagram30.webp" alt="Link de acesso instagram"></a>
+                <a class="redesPessoais" href="#"><img src="images/twitter30.webp" alt="Link de acesso twitter"></a>
+                <a class="redesPessoais" href="#"><img src="images/whatsapp30.png" alt="Link de acesso whatsapp"></a>
             </p>
         </div>
     </footer>

@@ -14,6 +14,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: var(--font-padrao);
 }
 
 body {
@@ -30,10 +31,11 @@ header {
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
     padding: 8px;
+    font-size: 0.9em;
 }
 
-img#logotipo {
-    display: inline-block;
+img#logotipoHeader {
+    display: none;
 }
 
 nav {
@@ -49,10 +51,7 @@ a {
 }
 
 a:hover {
-    padding: 5px;
-    background-color: #65655E;
-    color: var(--cor0);
-    border-radius: 5px;
+    color: var(--cor2);
 }
 
 form {
@@ -71,7 +70,8 @@ input#signUp {
 }
 
 input#signUp:hover {
-    
+    width: 84px;
+    height: 34px;
 }
 
 input#signIn {
@@ -81,4 +81,88 @@ input#signIn {
     border: 1px solid var(--cor2);
     background-color: var(--cor2);
     color: var(--cor0);
+}
+
+input#signIn:hover {
+    width: 84px;
+    height: 34px;
+}
+
+main {
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: var(--cor3);
+    padding: 8px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.099);
+}
+
+div#listaProdutos {
+    margin: auto;
+    width: 95vw;
+}
+
+div.Produto {
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.203);
+    width: 200px;
+    height: 220px;
+    margin: 5px;
+}
+
+img.imagemProduto {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 200px;
+    height: 140px;
+}
+
+p.legendaProduto {
+    padding: 3px;
+}
+
+footer {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 95vw;
+    margin: auto;
+}
+
+nav#navFooter {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+
+div#footerTop {
+    background-color: var(--cor0);
+    width: 92vw;
+    height: 30px;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div#footerBottom {
+    background-color: var(--cor1);
+    width: 92vw;
+    height: 40px;
+    padding: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 40px;
+}
+
+a.redesPessoais {
+    padding: 0px;
+    float: right;
+}
+
+p#paragrafoFooter {
+    color: var(--cor3);
+    font-size: 2.5vw;
 }
