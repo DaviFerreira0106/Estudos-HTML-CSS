@@ -41,6 +41,37 @@ img#logotipoHeader {
 nav {
     display: inline-block;
     line-height: 50px;
+    position: relative;
+}
+
+ul {
+    list-style: none; 
+}
+
+li {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+ul.subLista {
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+    position: absolute;
+}
+
+ul li:hover>ul, ul.subLista:hover, ul.subLista:focus {
+    visibility: visible;
+    display: block;
+    opacity: 1;
+    background-color: var(--cor1);
+}
+
+li.subLista {
+    clear: both; /*Quebra o bloco para baixo */
+    width: 100%;
 }
 
 a {
@@ -123,6 +154,18 @@ img.imagemProduto {
 
 p.legendaProduto {
     padding: 3px;
+}
+
+h2#tituloHistoria {
+    margin: auto;
+    padding: 8px;
+    margin-top: 30px;
+}
+
+p#txtHistoria {
+    text-align: justify;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 footer {

@@ -13,10 +13,18 @@
     <header>
         <img id="logotipoHeader" src="images/logotipo50.png" alt="Logotipo Loja virtual">
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Produtos</a>
-            <a href="#">Parcerias</a>
-            <a href="#">História</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Produtos</a>
+                    <ul class="subLista">
+                        <li class="subLista"><a href="#">Eletrodomesticos</a></li>
+                        <li class="subLista"><a href="#">Moveis</a></li>
+                        <li class="subLista"><a href="#">Reforma</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Parcerias</a></li>
+                <li><a href="#">História</a></li>
+            </ul>
         </nav>
         <form action="#" method="post">
             <input id="signUp" type="button" value="signUp">
@@ -92,13 +100,13 @@
         </section>
         <section>
             <article>
-                <h2>Nossa História</h2>
+                <h2 id="tituloHistoria">Nossa História</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid unde nisi, a ea laborum ex eaque!
-                    Quod distinctio, eaque, aliquam voluptatibus vero nihil explicabo nobis, voluptatum magni rerum sint
-                    reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id nobis unde
+                <p id="txtHistoria">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid unde nisi, a ea laborum ex eaque!
+                    Quod distinctio, eaque, aliquam voluptatibus vero nihil <abbr title="Teste de abreviaçào">explicabo</abbr> nobis, voluptatum magni rerum sint
+                    <em>reprehenderit</em>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id nobis unde
                     culpa? Cumque commodi asperiores inventore facere esse modi totam in corrupti, autem, voluptas, ad
-                    magni veritatis distinctio eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                    magni veritatis distinctio eveniet. Lorem ipsum <strong>dolor</strong> sit amet consectetur adipisicing elit. Rem
                     nisi facere aut illum aliquid nihil, a, esse maxime architecto officiis debitis aperiam ducimus
                     porro dolor tempora! Aperiam aut dolorem odit!</p>
             </article>
@@ -108,7 +116,7 @@
         <div id="footerTop">
             <img id="logotipoFooter" src="images/logotipo50.png" alt="Logotipo Loja virtual">
             <nav id="navFooter">
-                <a href="#">Home</a>
+                <a href="index.html">Home</a>
                 <a href="#">Produtos</a>
                 <a href="#">Parcerias</a>
                 <a href="#">História</a>
